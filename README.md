@@ -40,19 +40,19 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=8A2BE2&icon_color=8A2BE2" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=midnight-purple&hide_border=true&background=0D1117&ring=8A2BE2&fire=8A2BE2&currStreakLabel=8A2BE2" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Vishwesh-Bhilare&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=8A2BE2&icon_color=8A2BE2" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Vishwesh-Bhilare&theme=midnight-purple&hide_border=true&background=0D1117&ring=8A2BE2&fire=8A2BE2&currStreakLabel=8A2BE2" height="160"/>
 </p>
 
 ---
 
 ## 🎯 Featured Projects
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME/YOUR_PROJECT">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_PROJECT&theme=midnight-purple&bg_color=0D1117&title_color=8A2BE2&hide_border=true" />
+  <a href="https://github.com/Vishwesh-Bhilare/YOUR_PROJECT">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwesh-Bhilare&repo=YOUR_PROJECT&theme=midnight-purple&bg_color=0D1117&title_color=8A2BE2&hide_border=true" />
   </a>
-  <a href="https://github.com/YOUR_USERNAME/YOUR_PROJECT2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_PROJECT2&theme=midnight-purple&bg_color=0D1117&title_color=8A2BE2&hide_border=true" />
+  <a href="https://github.com/Vishwesh-Bhilare/YOUR_PROJECT2">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vishwesh-Bhilare&repo=YOUR_PROJECT2&theme=midnight-purple&bg_color=0D1117&title_color=8A2BE2&hide_border=true" />
   </a>
 </p>
 
@@ -67,7 +67,7 @@
 
 ## 🐍 Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Vishwesh-Bhilare/Vishwesh-Bhilare/output/github-contribution-grid-snake.svg" />
 </p>
 
 ---
