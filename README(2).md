@@ -64,7 +64,10 @@
 
 <div align="center">
 
-![Matrix Rain]([https://i.imgur.com/fYkQ2Qp.gif](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif))
+## ✨ Aesthetic Break
+<p align="center">
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="400" alt="Purple Pixel Animation"/>
+</p>
 
 </div>
 
@@ -82,14 +85,6 @@ _"Code. Sleep. Coffee. Repeat."_
 ![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg)
 
 </div>
-
----
-
-```bash
-> fetch --github-stats
-```
-![Stats](https://github-readme-stats.vercel.app/api?username=VishweshBhilare&show_icons=true&theme=radical)  
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=VishweshBhilare&layout=compact&theme=radical)  
 
 ---
 
