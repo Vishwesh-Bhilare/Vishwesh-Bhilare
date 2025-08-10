@@ -28,7 +28,7 @@
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A020F0&width=435&lines=Welcome+to+my+Terminal;Run+'help'+for+commands;Enjoy+your+stay!)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A020F0&width=435&lines=Why+are+you+here+vishy?;Run+'help'+for+commands;Enjoy+your+stay!)
 
 </div>
 
@@ -64,7 +64,7 @@
 
 <div align="center">
 
-## ✨ Aesthetic Break
+## ✨ You like to push & pull ....git
 <p align="center">
   <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="400" alt="Purple Pixel Animation"/>
 </p>
