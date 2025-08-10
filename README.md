@@ -32,7 +32,7 @@
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A020F0&width=435&lines=Why+are+you+here+vishy?;Run+'help'+for+commands;Enjoy+your+stay!)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A020F0&width=435&lines=Why+are+you+here+vishy?;Run+'help'+for+commands;Hit+me+up+for+a+chat!)
 
 </div>
 
