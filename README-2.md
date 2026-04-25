@@ -1,7 +1,5 @@
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=header&fontSize=0" width="100%"/>
-
 </div>
 
 <div align="center">
@@ -12,7 +10,7 @@
  ██║   ██║██████╔╝
  ╚██╗ ██╔╝██╔══██╗
   ╚████╔╝ ██████╔╝
-   ╚═══╝  ╚═════╝
+   ╚═══╝  ╚═════╝ Vishwesh Bhilare
 ```
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=4ADE80&center=true&vCenter=true&width=600&lines=computer+engineering+%40+MMCOE%2C+Pune;arch+btw.+(yes+i+will+mention+it);building+things+that+work+offline+%E2%80%94+like+me+socially;seeking+summer+2026+internship+%E2%86%97)](https://git.io/typing-svg)
@@ -30,6 +28,7 @@ class VishweshBhilare:
     def __init__(self):
         self.role        = "CE Undergrad · IEEE Member"
         self.os          = "Arch Linux (you knew this was coming)"
+        self.editor      = "neovim (mouse support: disabled. weakness: uninstalled.)"
         self.location    = "Pune, India (UTC+5:30)"
         self.focus       = [
             "Systems & Embedded Engineering",
@@ -70,31 +69,27 @@ class VishweshBhilare:
 <div align="center">
 
 ### 💻 Core Languages
-
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 ### 🤖 AI / ML
-
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Stable Diffusion](https://img.shields.io/badge/Stable_Diffusion-FF6B6B?style=for-the-badge&logoColor=white)
 
 ### 🔌 Embedded & Networking
-
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![BLE](https://img.shields.io/badge/BLE-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white)
 ![LoRa](https://img.shields.io/badge/LoRa-FF6600?style=for-the-badge&logoColor=white)
 
 ### 🛠️ Tools & CS Core
-
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 
 </div>
 
@@ -136,10 +131,8 @@ ID: 323468573OCI25GAIOCP  ·  valid 2025–2027
 ## `$ github --stats`
 
 <div align="center">
-
 <img src="https://github-readme-stats.vercel.app/api?username=Vishwesh-Bhilare&show_icons=true&theme=chartreuse-dark&border_color=4ADE80&title_color=4ADE80&icon_color=4ADE80&hide_border=false" height="170"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Vishwesh-Bhilare&layout=compact&theme=chartreuse-dark&border_color=4ADE80&title_color=4ADE80" height="170"/>
-
 </div>
 
 <div align="center">
@@ -156,7 +149,7 @@ ID: 323468573OCI25GAIOCP  ·  valid 2025–2027
 social battery   ▓▓░░░░░░░░░░░░░░  critically low — DMs still open though
 coffee intake    ▓▓▓▓▓▓▓▓▓▓▓▓░░░░  stable. do not reduce.
 currently wip    ▓▓▓▓▓▓▓░░░░░░░░░  rebuilding the mesh protocol (again)
-readme quality   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  peak. you're welcome.
+nvim config      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  never finished. never will be. that's the point.
 ```
 
 ---
