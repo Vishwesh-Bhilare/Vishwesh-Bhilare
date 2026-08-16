@@ -1,169 +1,282 @@
 <div align="center">
 
-```
-        /\           vishwesh@pune
-       /  \          ──────────────────────────────────
-      /    \         os      Arch Linux x86_64
-     /  /\  \        shell   zsh · neovim (mouse: off)
-    /  /  \  \        role    CE Undergrad · IEEE Member
-   /  /____\  \       focus   systems · embedded · low-level networking
-  /  /      \  \      builds  C / C++, close to the metal
- /__/________\__\     philosophy   understand the stack, don't just use it
-```
+<!-- HEADER WAVE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0118,50:2d1b69,100:7c3aed&height=180&section=header&text=vishwesh%20bhilare&fontSize=42&fontColor=f0eeff&fontAlignY=38&desc=systems%20%7C%20embedded%20%7C%20low-level&descAlignY=60&descSize=16&descColor=a78bfa&animation=fadeIn" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=1400&color=4ADE80&center=true&vCenter=true&width=700&lines=arch+linux%2C+because+understanding+the+stack+matters.;i+like+problems+that+end+in+a+working+protocol.;C%2FC%2B%2B+%E2%80%94+figuring+out+how+to+get+there+from+what+i+have.)](https://git.io/typing-svg)
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2&section=header" width="100%"/>
+<!-- SIGNAL PULSE TYPING -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2800&pause=1200&color=22D3EE&center=true&vCenter=true&multiline=false&width=680&lines=reading+the+RFC%2C+not+the+blog+post.;if+it+runs+in+userspace%2C+it+can+run+closer+to+the+metal.;FUSE+%2F+BLE+%2F+TCP+%E2%80%94+i+work+where+the+stack+gets+thin.;arch+linux%2C+built+not+installed.;give+me+the+constraints.+i%27ll+find+the+pattern.)](https://git.io/typing-svg)
 
 <br/>
 
-## `$ whoami`
+<!-- SIGNAL LINE DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20,20,12,0&height=1&section=header" width="80%"/>
 
-<img align="right" alt="Coding" width="260" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
+</div>
 
-```python
-class VishweshBhilare:
-    def __init__(self):
-        self.role     = "CE Undergrad · IEEE Member"
-        self.os       = "Arch Linux — built, not installed"
-        self.editor   = "neovim, mouse unplugged on principle"
-        self.location = "Pune, India · UTC+5:30"
+<br/>
 
-        self.focus = [
-            "Systems & embedded programming (C/C++)",
-            "Networking & protocol design (BLE, TCP/IP, mesh routing)",
-            "Linux internals & tooling",
-        ]
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"/> &nbsp;`$ whoami`
 
-        self.approach  = "give me the constraints, I'll find the pattern"
-        self.currently = "writing a FUSE filesystem that deduplicates at the chunk level"
+<img align="right" alt="Coding" width="240" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
 
-    def __repr__(self):
-        return "prefers reading the RFC over the blog post"
+```rust
+struct Vishwesh {
+    role:       "CE Undergrad · IEEE Member",
+    os:         "Arch Linux — built, not installed",
+    editor:     "neovim  |  mouse: None",
+    location:   "Pune, India  ·  UTC+5:30",
+    currently:  "dltaFS — chunk-level dedup over FUSE",
+
+    focus: [
+        "Systems & embedded  (C / C++)",
+        "Networking & protocol design",
+        "Linux internals & VFS layer",
+        "BLE · TCP/IP · Mesh routing",
+    ],
+
+    philosophy: "understand the stack — don't just use it",
+}
 ```
 
 <br clear="both"/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2&section=header" width="100%"/>
+---
+
+## `$ ls ~/projects/ --sort=signal`
 
 <br/>
-
-## `$ ls ~/projects/ -1`
 
 <div align="center">
 
-| `project` | `stack` | `what it does` |
-|:---|:---|:---|
-| **[dltaFS](https://github.com/Vishwesh-Bhilare/dltaFS)** | C · FUSE | Experimental filesystem — deduplicates shared data across files at the chunk level. Early dev, VFS/FUSE internals from scratch. |
-| **[dwm](https://github.com/Vishwesh-Bhilare/dwm)** | C · X11 | Personal build of the dynamic window manager — patched and configured by hand. |
-| **[XGestura](https://github.com/Vishwesh-Bhilare/XGestura)** | C++ · ESP32 · MPU6050 | IMU on a glove, BLE HID on the other end. Motion in, cursor input out. |
-| **[visualizer.h](https://github.com/Vishwesh-Bhilare/visualizer.h)** | C++ | Header-only library that renders linked-list internals as you walk them. |
-| **ExamCell Automation** | Systems tooling · MMCOE/IEEE | Exam-cell workflow tool, selected for live production in 3 days. |
+<!-- PROJECT CARDS via HTML table for GitHub -->
+<table>
+<tr>
+<td width="50%" valign="top">
 
-*also shipped: [SceneForge](https://github.com/Vishwesh-Bhilare/SceneForge) (YOLOv8/SAM pipeline for video), [ReachlyEngine](https://github.com/Vishwesh-Bhilare/ReachlyEngine) (local-LLM outreach tool), [Music-Organizer](https://github.com/Vishwesh-Bhilare/Music-Organizer) (CLI library sorter) — side builds, not the main focus.*
+### 🔵 &nbsp;[dltaFS](https://github.com/Vishwesh-Bhilare/dltaFS)
+`C · FUSE · Linux VFS`
+
+Experimental filesystem that deduplicates shared data **at the chunk level** across files. Built from scratch — VFS internals, FUSE hooks, content-addressed storage. Still early dev. The hard kind of problem.
+
+![Status](https://img.shields.io/badge/status-active%20dev-7c3aed?style=flat-square&labelColor=0a0118)
+![Lang](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white&labelColor=0a0118)
+
+</td>
+<td width="50%" valign="top">
+
+### 🟣 &nbsp;[XGestura](https://github.com/Vishwesh-Bhilare/XGestura)
+`C++ · ESP32 · MPU6050 · BLE HID`
+
+IMU strapped to a glove → BLE HID device on the other end. Motion in, cursor input out. Full pipeline: sensor fusion, BLE stack, HID descriptor crafting. Hardware that talks the OS's language.
+
+![Status](https://img.shields.io/badge/status-shipped-22d3ee?style=flat-square&labelColor=0a0118)
+![Lang](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white&labelColor=0a0118)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔷 &nbsp;[dwm](https://github.com/Vishwesh-Bhilare/dwm)
+`C · X11 · Xlib`
+
+Personal fork of the suckless dynamic window manager. Patched and configured entirely by hand — no GUI, no config file, just source. The kind of software you read before you run.
+
+![Status](https://img.shields.io/badge/status-daily%20driver-a78bfa?style=flat-square&labelColor=0a0118)
+![Lang](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white&labelColor=0a0118)
+
+</td>
+<td width="50%" valign="top">
+
+### 🔹 &nbsp;[visualizer.h](https://github.com/Vishwesh-Bhilare/visualizer.h)
+`C++ · Header-only`
+
+Drop-in library that renders linked-list internals as you walk them. Single header, zero deps. Born from wanting to *see* what the pointer was doing, not just read it.
+
+![Status](https://img.shields.io/badge/status-shipped-22d3ee?style=flat-square&labelColor=0a0118)
+![Lang](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white&labelColor=0a0118)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ &nbsp;ExamCell Automation
+`Systems tooling · MMCOE / IEEE`
+
+Exam-cell workflow automation tool — built and shipped to live production within 3 days. Sometimes the fastest path from "we have a problem" to "it's running" matters more than anything else.
+
+![Status](https://img.shields.io/badge/status-live%20production-4ade80?style=flat-square&labelColor=0a0118)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛰️ &nbsp;Also shipped
+
+[SceneForge](https://github.com/Vishwesh-Bhilare/SceneForge) — YOLOv8/SAM video pipeline<br/>
+[ReachlyEngine](https://github.com/Vishwesh-Bhilare/ReachlyEngine) — local-LLM outreach tool<br/>
+[Music-Organizer](https://github.com/Vishwesh-Bhilare/Music-Organizer) — CLI library sorter<br/>
+
+<sub>Side builds. Not the main focus — but they work.</sub>
+
+</td>
+</tr>
+</table>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2&section=header" width="100%"/>
-
-<br/>
+---
 
 ## `$ cat ~/skills.txt`
 
+<br/>
+
 <div align="center">
 
-**systems & low-level**
+<!-- SKILL CONSTELLATION via skillicons -->
 
-[![My Skills](https://skillicons.dev/icons?i=c,cpp,linux,neovim,git,bash,github&theme=dark&perline=10)](https://skillicons.dev)
+**— systems & low-level —**
 
-**embedded & networking**
+[![Skills](https://skillicons.dev/icons?i=c,cpp,linux,bash,git,neovim,github&theme=dark&perline=8)](https://skillicons.dev)
 
-[![My Skills](https://skillicons.dev/icons?i=arduino,raspberrypi,sqlite&theme=dark&perline=10)](https://skillicons.dev)
+**— embedded & hardware —**
 
-![BLE](https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white)
-![TCP/IP](https://img.shields.io/badge/TCP%2FIP-005571?style=flat-square&logoColor=white)
-![Mesh Routing](https://img.shields.io/badge/Mesh_Routing-4ADE80?style=flat-square&logoColor=black)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
+[![Skills](https://skillicons.dev/icons?i=arduino,raspberrypi,sqlite&theme=dark&perline=8)](https://skillicons.dev)
 
-<sub>also reaches for Python when a script is faster than a rewrite</sub>
+**— also reaches for —**
+
+[![Skills](https://skillicons.dev/icons?i=python,cmake&theme=dark&perline=8)](https://skillicons.dev)
+
+<br/>
+
+<!-- PROTOCOL BADGES -->
+![BLE](https://img.shields.io/badge/BLE_HID-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white&labelColor=0a0118)
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-005571?style=for-the-badge&logoColor=white&labelColor=0a0118)
+![Mesh](https://img.shields.io/badge/Mesh_Routing-7c3aed?style=for-the-badge&logoColor=white&labelColor=0a0118)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white&labelColor=0a0118)
+![FUSE](https://img.shields.io/badge/FUSE%2FVFS-22d3ee?style=for-the-badge&logoColor=black&labelColor=0a0118)
+![X11](https://img.shields.io/badge/X11%2FXlib-f97316?style=for-the-badge&logoColor=white&labelColor=0a0118)
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2&section=header" width="100%"/>
-
-<br/>
+---
 
 ## `$ cat ~/achievements.log`
 
+<br/>
+
 <div align="center">
 
-```
-── competitions ────────────────────────────────────────────────────────────
-
-  [WIN]  In-house Project Competition  ──  MMCOE          selected for live production.
-  [#2]   Xenia '26                    ──  PICT
-  [#2]   Avinya 2k26                  ──  IEEE MMCOE
-  [#2]   UI/UX Challenge              ──  WebsiteVikreta
-
-── certification ───────────────────────────────────────────────────────────
-
-  [OCI]  Oracle Cloud Infrastructure 2025 Generative AI Professional
-         ID: 323468573OCI25GAIOCP  ·  valid 2025–2027
-```
-
-![Oracle](https://img.shields.io/badge/Oracle_OCI_2025-Generative_AI_Professional-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-
-<sub>runner-up three times, same year, three different events — pattern, not coincidence.</sub>
+<!-- ACHIEVEMENT TIMELINE via table -->
+<table>
+<tr>
+<th align="left" width="120">signal</th>
+<th align="left">event</th>
+<th align="left">venue</th>
+<th align="left">note</th>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/WIN-4ade80?style=flat-square&labelColor=052e16"/></td>
+<td><b>In-house Project Competition</b></td>
+<td>MMCOE</td>
+<td>Selected for live production</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/%232-a78bfa?style=flat-square&labelColor=2e1065"/></td>
+<td><b>Xenia '26</b></td>
+<td>PICT</td>
+<td>—</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/%232-a78bfa?style=flat-square&labelColor=2e1065"/></td>
+<td><b>Avinya 2k26</b></td>
+<td>IEEE MMCOE</td>
+<td>—</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/%232-a78bfa?style=flat-square&labelColor=2e1065"/></td>
+<td><b>UI/UX Challenge</b></td>
+<td>WebsiteVikreta</td>
+<td>—</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/CERT-22d3ee?style=flat-square&labelColor=0a0118"/></td>
+<td><b>OCI 2025 Generative AI Professional</b></td>
+<td>Oracle Cloud Infrastructure</td>
+<td>ID: 323468573OCI25GAIOCP · valid 2025–2027</td>
+</tr>
+</table>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2&section=header" width="100%"/>
-
 <br/>
+
+<div align="center">
+
+![Oracle](https://img.shields.io/badge/Oracle_OCI_2025-Generative_AI_Professional-F80000?style=for-the-badge&logo=oracle&logoColor=white&labelColor=0a0118)
+
+<sub>runner-up three times, same year, three different events — that's a pattern, not a coincidence.</sub>
+
+</div>
+
+---
 
 ## `$ github --stats`
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Vishwesh-Bhilare&show_icons=true&theme=chartreuse-dark&border_color=4ADE80&title_color=4ADE80&icon_color=4ADE80&hide_border=false&rank_icon=github" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Vishwesh-Bhilare&layout=compact&theme=chartreuse-dark&border_color=4ADE80&title_color=4ADE80&hide_border=false" height="165"/>
-
 <br/>
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Vishwesh-Bhilare&theme=github-compact&hide_border=false&area=true&color=4ADE80&line=4ADE80&point=ffffff&custom_title=commit%20history)
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Vishwesh-Bhilare&show_icons=true&theme=midnight-purple&border_color=7c3aed&title_color=a78bfa&icon_color=22d3ee&text_color=f0eeff&bg_color=0a0118&hide_border=false&rank_icon=github&include_all_commits=true&count_private=true" height="170"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Vishwesh-Bhilare&layout=compact&theme=midnight-purple&border_color=7c3aed&title_color=a78bfa&text_color=f0eeff&bg_color=0a0118&hide_border=false" height="170"/>
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Vishwesh-Bhilare&theme=midnight-purple&border=7c3aed&ring=7c3aed&fire=22d3ee&currStreakLabel=a78bfa&background=0a0118&sideNums=f0eeff&sideLabels=a78bfa&dates=7c72a0" height="170"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishwesh-Bhilare&bg_color=0a0118&color=a78bfa&line=7c3aed&point=22d3ee&area=true&area_color=2d1b69&hide_border=false&border_color=7c3aed&custom_title=commit%20signal" width="95%"/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2&section=header" width="100%"/>
-
-<br/>
+---
 
 ## `$ uptime --human`
 
-```
-coffee intake    ▓▓▓▓▓▓▓▓▓▓▓▓░░░░  stable
-current build    ▓▓▓▓▓▓▓░░░░░░░░░  dltaFS — chunk-level dedup, still early
-nvim config      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  never finished, that's the design
-```
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2&section=header" width="100%"/>
-
 <br/>
-
-## `$ cat ~/contact.txt`
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-bhilarevishwesh%40gmail.com-4ADE80?style=for-the-badge&logo=gmail&logoColor=black)](mailto:bhilarevishwesh@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-vishweshbh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishweshbh/)
-[![GitHub](https://img.shields.io/badge/GitHub-Vishwesh--Bhilare-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vishwesh-Bhilare)
-[![Portfolio](https://img.shields.io/badge/Portfolio-vishweshbh.in-4ADE80?style=for-the-badge&logo=googlechrome&logoColor=black)](https://vishweshbh.in)
+```
+  coffee intake    ▓▓▓▓▓▓▓▓▓▓▓▓░░░░  stable, no jitter
+  dltaFS           ▓▓▓▓▓▓▓░░░░░░░░░  chunk dedup · vfs hooks wip
+  nvim config      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  never done · never should be
+  understanding    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  always compiling
+```
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2&section=header" width="100%"/>
+---
+
+## `$ cat ~/contact.txt`
+
+<br/>
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/bhilarevishwesh%40gmail.com-0a0118?style=for-the-badge&logo=gmail&logoColor=22d3ee&labelColor=0a0118&color=7c3aed)](mailto:bhilarevishwesh@gmail.com)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/vishweshbh-0a0118?style=for-the-badge&logo=linkedin&logoColor=22d3ee&labelColor=0a0118&color=7c3aed)](https://www.linkedin.com/in/vishweshbh/)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/Vishwesh--Bhilare-0a0118?style=for-the-badge&logo=github&logoColor=22d3ee&labelColor=0a0118&color=7c3aed)](https://github.com/Vishwesh-Bhilare)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/vishweshbh.in-0a0118?style=for-the-badge&logo=googlechrome&logoColor=22d3ee&labelColor=0a0118&color=7c3aed)](https://vishweshbh.in)
+
+</div>
+
+---
 
 <div align="center">
 
@@ -173,15 +286,18 @@ nvim config      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  never finishe
 
 <br/>
 
+<!-- FOOTER WAVE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:2d1b69,100:0a0118&height=120&section=footer&text=&fontSize=0&fontColor=f0eeff&animation=fadeIn" width="100%"/>
+
+<br/>
+
 ```bash
-vishwesh@arch:~$ sudo shutdown -h now
-
-[  OK  ] Stopped     — readme.service
-[  OK  ] Reached target — Shutdown
-
+vishwesh@arch ~ $ sudo shutdown -h now
+[  OK  ] Stopped     readme.service
+[  OK  ] Reached target Shutdown
 -- System halted. --
 ```
 
-[![Visitors](https://komarev.com/ghpvc/?username=Vishwesh-Bhilare&label=profile+views&color=4ADE80&style=flat-square)](https://github.com/Vishwesh-Bhilare)
+[![Visitors](https://komarev.com/ghpvc/?username=Vishwesh-Bhilare&label=signal+received&color=7c3aed&style=flat-square)](https://github.com/Vishwesh-Bhilare)
 
 </div>
